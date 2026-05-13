@@ -38,34 +38,54 @@ This demo app is the best place to learn how to use the framework, see live prev
 
 ## 🧩 Component Library
 
-Here is an overview of the components available in GlassKit and how to use them:
+Here is the complete manifest of components available in GlassKit. This extensive library is designed to help you build any interface requirement with the Liquid Glass aesthetic:
 
-### 1. Primitives
-The foundational building blocks of the framework.
-- **`LiquidContainer`**: The base glass-morphic surface. Use this to wrap content in a frosted glass pane.
-- **`GlassCard`**: A higher-level card component built on `LiquidContainer`, perfect for displaying distinct blocks of content.
-- **`AnimatedBorder`**: A gradient, moving border effect often used to highlight active or premium content.
+### 🏗 Foundation
+- `ThemeEngine`, `ThemeProvider`, `EnvironmentThemeKey`
+- `ColorToken`, `TypographyToken`, `MotionToken`, `GlassMaterialToken`
+- `AccessibilityEngine`, `AdaptiveLayoutEngine`
 
-### 2. Interaction (Buttons)
-- **`GlassButton`**: A beautiful, interactive button with haptic feedback, hover effects, and built-in loading states.
+### 🧱 Primitives
+- `GlassSurface`, `LiquidContainer`, `GlassCard`
+- `AnimatedBorder`, `AdaptiveBlurView`, `DynamicCornerRadius`
+- `MorphingShape`, `ElevationShadow`
 
-### 3. Inputs
-- **`GlassTextField`**: A sleek text input field with animated floating labels, inline validation, and secure entry options.
+### 👆 Buttons & Interactions
+- `GlassButton`, `FloatingActionButton`, `AsyncLoadingButton`, `IconButton`
+- `SegmentedPill`, `CheckboxToggleStyle`, `RadioButton`, `SwitchToggle`
+- `FatSlider`, `StepSlider`, `ReactionButton`
 
-### 4. Navigation
-- **`FloatingTabBar`**: A custom, floating bottom navigation bar with animated tab selection and glass aesthetics.
-- **`AdvancedNavigation`**: Custom navigation headers and transitions.
+### ⌨️ Inputs
+- `CocoaTextField`, `SearchBar`, `FloatingLabelInput`, `OTPInputField`
+- `ValidationTextField`, `SecureInputField`, `RichTextEditor`, `TokenInputField`
+- `CurrencyInput`, `AutoGrowingTextEditor`
 
-### 5. Feedback & Data Display
-- **`SkeletonLoader`**: An animated placeholder for content that is loading, matching the glass aesthetic.
-- **`DataDisplayComponents`**: Beautifully formatted lists, tables, and statistics cards.
+### 🧭 Navigation
+- `FloatingTabBar`, `AdaptiveSidebar`, `LiquidNavigationBar`
+- `MorphingBottomSheet`, `DetentSheetContainer`, `HeroTransitionContainer`
+- `NavigationRail`, `FloatingCommandPalette`, `BreadcrumbNavigator`
 
-### 6. Media & Vision
-- **`MediaComponents`**: Wrappers for images and video players with glass-morphic controls.
-- **`VisionComponents`**: Components optimized for spatial computing and 3D depth effects.
+### 💬 Feedback
+- `GradientProgress`, `SkeletonLoader`, `OverlayToast`, `HUDIndicator`
+- `Snackbar`, `InlineBanner`, `ActivityRing`, `PulseLoader`
+- `ConfettiEmitter`, `ShimmerView`
 
-### 7. AI Components
-- **`AIStreamingText`**: A component designed specifically for rendering real-time streaming text from Large Language Models (LLMs) with smooth character reveal animations.
+### 📊 Data Display
+- `GlassList`, `AdaptiveGrid`, `TimelineView`, `ExpandableCard`, `Accordion`
+- `StatCard`, `CarouselView`, `ChartContainer`, `InfiniteScrollView`, `EmptyStateView`
+
+### 🎥 Media
+- `AsyncImageView`, `VideoPlayerContainer`, `AudioVisualizer`
+- `MediaControls`, `ZoomableImageView`, `ParallaxImage`, `LivePhotoView`
+
+### 🤖 AI Components
+- `PromptInputBar`, `AIStreamingText`, `TypingIndicator`
+- `ConversationBubble`, `MarkdownRenderer`, `CodeBlockView`
+- `VoiceWaveformView`, `SpotlightSearch`
+
+### 👓 VisionOS Components
+- `SpatialGlassPanel`, `DepthAwareContainer`, `VolumetricCard`
+- `OrbitalMenu`, `SpatialToolbar`
 
 ---
 
